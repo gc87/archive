@@ -1,3 +1,5 @@
+# swarm开发笔记
+
 ### Server端TLS链接设置
 
 1. auto-tls-cert.sh
@@ -133,6 +135,6 @@
      - manager node管理节点：执行集群的管理功能，维护集群的状态，选举一个leader节点去执行调度任务。
      - worker node工作节点：接收和执行任务。参与容器集群负载调度，仅用于承载task。
 
-  
+
    * service服务：一个服务是工作节点上执行任务的定义。创建一个服务，指定了容器所使用的镜像和容器运行的命令。service是运行在worker nodes上的task的描述，service的描述包括使用哪个docker 镜像，以及在使用该镜像的容器中执行什么命令。
    * task任务：一个任务包含了一个容器及其运行的命令。task是service的执行实体，task启动docker容器并在容器中执行任务。

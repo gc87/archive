@@ -8,7 +8,7 @@
 
 ## Read
 
-- [信息论](https://github.com/gc87/archive/blob/master/read/信息论.md)
+- [信息论摘要](https://github.com/gc87/archive/blob/master/read/信息论摘要.md)
 
 - [通用数据结构](https://github.com/gc87/archive/blob/master/read/通用数据结构.md)
 
