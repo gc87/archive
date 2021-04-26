@@ -12,7 +12,7 @@
 
 - [通用数据结构](https://github.com/gc87/archive/blob/master/read/通用数据结构.md)
 
-- [区块链确定性](https://github.com/gc87/archive/blob/master/read/区块链确定性.md)
+- [区块链的确定性](https://github.com/gc87/archive/blob/master/read/区块链的确定性.md)
 
 ## Write
 
