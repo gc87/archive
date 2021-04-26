@@ -23,19 +23,11 @@ cconnect -d -w /home/root/.cconnect/
 
 ## 2. 软链接
 
-a. 创建
-ln -s 目标目录】 【软链接地址】
-
-b. 删除
-rm -rf 【软链接地址】
-
-c. 修改
-ln -snf 【新目标目录】 【软链接地址】
+a. 创建 `ln -s [目标目录]  [软链接地址]`
+b. 删除 `rm -rf [软链接地址]`
+c. 修改 `ln -snf [新目标目录]  [软链接地址]`
 
 ## 3. tar
 
-a. 解压缩
-tar -xzvf xxxx.tar.gz
-
-b. 压缩
-tar -czvf xxxx.tar.gz xxxx/
+a. 解压缩 `tar -xzvf xxxx.tar.gz`
+b. 压缩 `tar -czvf xxxx.tar.gz xxxx/`
