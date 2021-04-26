@@ -1,20 +1,20 @@
-# 关于我
+# About Me
 
-## 项目归档
+## Project
 
-- [2015-10~2018-05](https://github.com/gc87/archive/blob/master/project/2015-10~2018-05.md)
+- [2015-10~2018-05](https://github.com/gc87/archive/blob/master/project/2015-10~2018-05.md) 物联网方向
 
-- [2018-05~now](https://github.com/gc87/archive/blob/master/project/2018-05~now.md)
+- [2018-05~now](https://github.com/gc87/archive/blob/master/project/2018-05~now.md) 区块链、物联网方向
 
-## 阅读
+## Read
 
 [信息论](https://github.com/gc87/archive/blob/master/read/信息论.md)
 
-[关于通用数据结构](https://github.com/gc87/archive/blob/master/read/关于通用数据结构.md)
+[通用数据结构](https://github.com/gc87/archive/blob/master/read/关于通用数据结构.md)
 
 [区块链确定性](https://github.com/gc87/archive/blob/master/read/区块链确定性.md)
 
-## 输出
+## Write
 
 [c语言短板消除](https://github.com/gc87/archive/blob/master/write/c语言短板消除.md)
 
