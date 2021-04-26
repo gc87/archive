@@ -14,7 +14,7 @@
 ## Write
 
 - [c语言短板消除](https://github.com/gc87/archive/blob/master/write/c语言短板消除.md)
-- [ti-ubuntu12.04 交叉编译环境](https://github.com/gc87/archive/blob/master/write/ti-ubuntu12.04 交叉编译环境.md)
+- [ti-ubuntu12.04交叉编译环境](https://github.com/gc87/archive/blob/master/write/ti-ubuntu12.04交叉编译环境.md)
 - [树莓派交叉编译](https://github.com/gc87/archive/blob/master/write/树莓派交叉编译.md)
 - [Erlang交叉编译](https://github.com/gc87/archive/blob/master/write/Erlang交叉编译.md)
 - [pb简单使用](https://github.com/gc87/archive/blob/master/write/pb简单使用.md)
