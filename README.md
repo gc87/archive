@@ -23,3 +23,7 @@
 - [ubuntu-server-docker配置](https://github.com/gc87/archive/blob/master/write/ubuntu-server-docker配置.md)
 - [开发相关配置记录](https://github.com/gc87/archive/blob/master/write/开发相关配置记录.md)
 - [linux命令记录](https://github.com/gc87/archive/blob/master/write/linux命令记录.md)
+- [nRF24L01与Arduino实现的收发器](https://github.com/gc87/archive/blob/master/write/nRF24L01与Arduino实现的收发器.md) 2015/07/19
+- [嵌入式开发——关于Arduino开发的一些思考](https://github.com/gc87/archive/blob/master/write/嵌入式开发——关于Arduino开发的一些思考.md) 2015/07/07
+- [Openfire聊天服务器集成现有系统](https://github.com/gc87/archive/blob/master/write/Openfire聊天服务器集成现有系统.md) 2014/06/05
+
