@@ -201,7 +201,7 @@
 
 8. 判断方法
 
-  9. 第一种方法
+9. 第一种方法
 
      ```c
      /* 
@@ -219,42 +219,44 @@
      //如果是大端，*p的结果是0
      ```
 
-  10. 第二种方法
-
-    ```c
-     /* 
-      * 1: little-endian 
-      * 0: big-endian 
-      */  
-     int check_endian()  
-     {  
-         union w  
-         {  
-             int a;  
-             char b;  
-         } c;  
-         c.a = 1;  
-         return (c.b == 1);  
-     }  
      
-     printf("%s\n", checkEndian() ? "little-endian" : "big-endian"); 
-    ```
 
-    
+10. 第二种方法
+
+     ```c
+      /* 
+       * 1: little-endian 
+       * 0: big-endian 
+       */  
+      int check_endian()  
+      {  
+          union w  
+          {  
+              int a;  
+              char b;  
+          } c;  
+          c.a = 1;  
+          return (c.b == 1);  
+      }  
+      
+      printf("%s\n", checkEndian() ? "little-endian" : "big-endian"); 
+     ```
+
+     
 
 11. 大端和小端的转换
 
-     ```c
-     /*
-      * 大小端转换
-     */
-     int big_litle_endian(int x)
-     {
-         int tmp;
-         tmp = (((x)&0xff) << 24) + (((x >> 8) & 0xff) << 16) + (((x >> 16) & 0xff) << 8) + (((x >> 24) & 0xff));
-         return tmp;
-     }
-     ```
+       ```c
+       /*
+        * 大小端转换
+       */
+       int big_litle_endian(int x)
+       {
+           int tmp;
+           tmp = (((x)&0xff) << 24) + (((x >> 8) & 0xff) << 16) + (((x >> 16) & 0xff) << 8) + (((x >> 24) & 0xff));
+           return tmp;
+       }
+       ```
 #### 10.十六进制
 
 **十六进制**（简写为*hex*或下标16）在[数学](https://zh.wikipedia.org/wiki/%E6%95%B0%E5%AD%A6)中是一种逢16进1的[进位制](https://zh.wikipedia.org/wiki/%E8%BF%9B%E4%BD%8D%E5%88%B6)。一般用数字0到9和字母A到F（或a~f）表示，其中:A~F表示10~15，这些称作**十六进制数字**。
