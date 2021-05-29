@@ -221,24 +221,26 @@
 
   10. 第二种方法
 
-```c
- /* 
-  * 1: little-endian 
-  * 0: big-endian 
-  */  
- int check_endian()  
- {  
-     union w  
+    ```c
+     /* 
+      * 1: little-endian 
+      * 0: big-endian 
+      */  
+     int check_endian()  
      {  
-         int a;  
-         char b;  
-     } c;  
-     c.a = 1;  
-     return (c.b == 1);  
- }  
- 
- printf("%s\n", checkEndian() ? "little-endian" : "big-endian"); 
-```
+         union w  
+         {  
+             int a;  
+             char b;  
+         } c;  
+         c.a = 1;  
+         return (c.b == 1);  
+     }  
+     
+     printf("%s\n", checkEndian() ? "little-endian" : "big-endian"); 
+    ```
+
+    
 
 11. 大端和小端的转换
 
