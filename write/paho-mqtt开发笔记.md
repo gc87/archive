@@ -170,3 +170,7 @@ The server checks whether session information for this client has been saved fro
 
 If a previous session still exists, and cleansession=true, then the previous session information at the client and server is cleared. If cleansession=false, the previous session is resumed. If no previous session exists, a new session is started.
 如果前一个会话仍然存在，并且cleansession=true，那么客户端和服务器上的前一个会话信息将被清除。 如果cleansession=false，则恢复先前的会话。 如果不存在先前的会话，则开始新的会话。
+
+
+
+把配置里的 cleanSession 设为false，客户端掉线后 服务器端不会清除session，当重连后可以接收之前订阅主题的消息。**当客户端上线后会接受到它离线的这段时间的消息, 但是这个只是进行了重连，重连后还需要再次发起订阅**
